@@ -22,10 +22,6 @@ if (err) {
     return 
     process.exit(1)
 }
-
-
-
-
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
 // The function should have three responses: 
@@ -42,8 +38,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log('Server running at port ${port}')
 })
-
-
-
 // That's it! You're all done!
 })
